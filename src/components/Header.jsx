@@ -21,7 +21,7 @@ const Header = () => {
               Quizzy Pop
             </span>
           </Link>
-          <ul className="flex items-center hidden space-x-8 lg:flex">
+          <ul className="flex hidden items-center space-x-8 lg:flex">
             <li>
               <Link
                 to="/topics"
