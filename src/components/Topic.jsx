@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Topic = ({ topic }) => {
   const { name, id, logo, total } = topic;
   return (
-    <div className="md:p-5 bg-white shadow-slate-400 shadow-lg rounded-md p-1">
+    <div className="md:p-5 bg-white shadow-slate-400 shadow-lg rounded-md p-3">
       <img className="bg-blue-200 md:w-full rounded-md" src={logo} alt={name} />
       <div className="text-center justify-between">
         <div className="justify-center my-2 mx-2 select-none flex">

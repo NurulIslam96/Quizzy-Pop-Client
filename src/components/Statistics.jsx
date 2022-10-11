@@ -16,12 +16,13 @@ const Statistics = () => {
   const { data } = questionsData;
   console.log(data);
   return (
-    <div className="mt-48 md:w-1/2">
+    <div className="my-24 container mx-auto flex md:flex-row flex-col justify-between items-center">
         <div>
-            
+            <p className="text-3xl font-bold text-slate-500 mb-5 text-center">Statistics of Questions in Different fields</p>
         </div>
       <ResponsiveContainer width="100%" height={400}>
         <LineChart
+        
           data={data}
           margin={{
             top: 5,
