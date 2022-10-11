@@ -6,13 +6,11 @@ const QuizDetails = () => {
   const QuizDetails = useLoaderData();
   const { logo, name, questions } = QuizDetails.data;
   return (
-    <div>
+    <div className="bg-slate-100">
       <div className="flex justify-center">
-        <div className="text-center">
-          <img className="md:w-56 w-32" src={logo} alt="" />
-          <p className="text-2xl">{name}</p>
-        </div>
+        <img src={logo} className="md:w-1/6 md:px-0 px-5 mt-10" alt="" />
       </div>
+        <p className="font-semibold text-slate-600 text-center text-3xl my-5">Quiz of {name}</p>
       <div className="flex items-center flex-col">
         {
             questions.map((qs) => <Questions key={qs.id} qs={qs}></Questions>)
