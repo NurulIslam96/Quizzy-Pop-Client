@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Topic = ({ topic }) => {
     const { name, id, logo, total } = topic;
@@ -12,7 +13,7 @@ const Topic = ({ topic }) => {
                     </div>
                 </div>
                 <div className="justify-center mt-5 mb-2 select-none flex">
-                    <button class="py-2 px-4 shadow-md no-underline rounded-md bg-blue-500 text-white font-sans font-semibold text-sm border-blue btn-primary hover:text-white hover:bg-blue-700 focus:outline-none active:shadow-none">Primary</button>
+                    <button className="py-2 px-4 shadow-md no-underline rounded-md bg-blue-500 text-white font-sans font-semibold text-sm border-blue btn-primary hover:text-white hover:bg-blue-700 focus:outline-none active:shadow-none"><Link to={`/topics/${id}`}>Lets Practice</Link></button>
                 </div>
             </div>
         </div>
