@@ -13,7 +13,7 @@ const QuizDetails = () => {
           <p className="text-2xl">{name}</p>
         </div>
       </div>
-      <div className="list-disc">
+      <div>
         {
             questions.map((qs) => <Questions key={qs.id} qs={qs}></Questions>)
         }
