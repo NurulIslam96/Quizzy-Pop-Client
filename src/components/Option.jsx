@@ -2,11 +2,9 @@ import React from "react";
 
 const Option = ({ option, handleOnClick, isChecked }) => {
   return (
-    <div>
-      <div className="topping">
-        <div className="cursor-pointer" onClick={()=>handleOnClick(option)}>{option}</div>
+    <div className="bg-white p-2 rounded-md my-5 outline outline-offset-2 outline-1 outline-orange-300 hover:bg-slate-300">
+        <div className="cursor-pointer text-xl" onClick={()=>handleOnClick(option)}>{option}</div>
       </div>
-    </div>
   );
 };
 
