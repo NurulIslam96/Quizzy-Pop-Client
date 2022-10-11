@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Blog from "./components/Blog"
 import ErrorPage from "./components/ErrorPage"
+import Home from "./components/Home"
 import QuizDetails from "./components/QuizDetails"
 import Root from "./components/Root"
 import Statistics from "./components/Statistics"
@@ -14,7 +15,7 @@ function App() {
       element: <Root></Root>,
       errorElement: <ErrorPage></ErrorPage>,
       children:[
-        {path: '/', element:<Topics></Topics>, loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz')},
+        {path: '/', element:<Home></Home>, loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz')},
         {path:'/topics', element: <Topics></Topics>, loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz')},
         {path:'/statistics',element:<Statistics></Statistics>},
         {path:'/blog', element:<Blog></Blog>},

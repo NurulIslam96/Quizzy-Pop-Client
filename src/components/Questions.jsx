@@ -24,8 +24,8 @@ const Questions = ({ qs }) => {
       <FontAwesomeIcon onClick={() => setIsEyeOpen(true)} className='text-white text-2xl absolute right-3 top-3 hover:text-slate-300 cursor-pointer' icon={faEye} />
       <div>
         {isEyeOpen && (
-            <div className='text-4xl text-white absolute inset-0 flex flex-col items-center justify-center rounded-md bg-slate-500'>
-                {correctAnswer} 
+            <div className='text-3xl text-white absolute inset-0 flex flex-col items-center justify-center rounded-md bg-slate-500'>
+                <p>Correct Answer: {correctAnswer} </p> 
                 <button className='text-2xl text-black bg-white px-5 py-1 mt-5 rounded-md hover:bg-slate-300' onClick={() => setIsEyeOpen(false)}>Hide</button>
             </div>
         )}
