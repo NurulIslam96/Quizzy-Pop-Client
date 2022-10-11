@@ -27,7 +27,7 @@ const Home = () => {
                 <Link to="/blog">
                   <button
                     type="button"
-                    className="px-8 py-3 text-lg md:mx-5 border rounded-full border-cyan-400 text-white"
+                    className="px-8 py-3 text-lg md:mx-5 border rounded-full border-cyan-400 hover:border-white text-white"
                   >
                     Learn more
                   </button>

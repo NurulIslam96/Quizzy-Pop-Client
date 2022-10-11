@@ -12,8 +12,8 @@ const Header = () => {
           title="Quizzy Pop"
           className="inline-flex items-center"
         >
-          <img src="https://img.icons8.com/ios-filled/50/000000/quiz.png" />
-          <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+          <img src="https://img.icons8.com/ios-filled/50/000000/quiz.png" alt="" />
+          <span className="ml-2 text-2xl font-bold tracking-wide text-gray-800 uppercase">
             Quizzy Pop
           </span>
         </Link>
@@ -23,7 +23,8 @@ const Header = () => {
               to="/topics"
               aria-label="Topics"
               title="Topics"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400
+              hover:text-blue-700"
             >
               Topics
             </Link>
@@ -33,7 +34,7 @@ const Header = () => {
               to="/statistics"
               aria-label="Statistics"
               title="Statistics"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium hover:text-blue-700 tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               <div className="relative p-3">
                 <p>Statistics</p>
@@ -45,7 +46,7 @@ const Header = () => {
               to="/blog"
               aria-label="Blog"
               title="Blog"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium hover:text-blue-700 tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Blog
             </Link>
