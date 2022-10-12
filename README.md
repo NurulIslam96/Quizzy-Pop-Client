@@ -14,6 +14,7 @@ https://github.com/programming-hero-web-course2/b6-quiz-crackerz-NurulIslam96
 
 - Responsive Header
 - Mobile Compatible
+- User Friendly
 - MCQ with Toast pop-ups
-- Statistics of Question using Chart
+- Chart used for Statistics
 - Blogs
