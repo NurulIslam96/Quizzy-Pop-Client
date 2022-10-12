@@ -1,4 +1,4 @@
-# QUIZZLY POP
+# QUIZZY POP
 
 This Project is created using ReactJS and Tailwind.
 
