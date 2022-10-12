@@ -1,6 +1,6 @@
 # QUIZZY POP
 
-This Project is created using ReactJS and Tailwind.
+This Project was created using ReactJS and Tailwind.
 
 ## Live Website Link
 
